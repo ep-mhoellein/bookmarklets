@@ -4,7 +4,6 @@
             result,
             queryObject = document.querySelectorAll(query);
 
-
         switch (queryObject.length) {
             case 0:
                 queryObject = undefined;
@@ -54,4 +53,7 @@
     $('input[name="EMail"]').val('mmustermann@epages.de');
     $('input[name="Phone"]').val('12345/54321');
     $('input[name="Fax"]').val('12345/54322');
+
+    $('input[name="UserName"]').val('mmustermann@epages.de');
+    $('input[name="Password"]').val('qwert6');
 }());
