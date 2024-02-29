@@ -38,7 +38,7 @@
                 <span>Auto-Fill</span>
             </li>
             <li style="background-image: url(img/auto-fill.png);">
-                <a href="javascript%3A%20void%20function()%7Blet%20t%3Dnew%20Date%2Ce%3Dt.getDate()%2Cn%3Dt.getMonth()%2B1%2Cu%3Dt.getHours()%2Ci%3Dt.getMinutes()%2Cy%3Dt.getFullYear()%3Bfunction%20r(t)%7Breturn%20t%3C10%3F%220%22%2Bt%3At%7Ddocument.querySelector(%22input%5Bname%3D'Alias'%22).setAttribute(%22value%22%2C%22unity-%22%2Br(y)%2Br(e)%2Br(n)%2B%22-%22%2Br(u)%2Br(i))%3Bdocument.getElementById('ShopTypeID').value%3DArray.from(document.getElementById('ShopTypeID').options).find(function(option)%20%7Breturn%20option.text%3D%3D%3D%22Unity%20Demo%22%7D).value%3B%7D()%3B">Auto-Fill</a>
+                <a href="javascript:%20void%20function()%7Blet%20t=new%20Date,e=t.getDate(),n=t.getMonth()+1,u=t.getHours(),i=t.getMinutes(),y=t.getFullYear();function%20r(t)%7Breturn%20t%3C10?%220%22+t:t%7Ddocument.querySelector(%22input%5Bname='Alias'%22).setAttribute(%22value%22,%22unity-%22+r(y)+r(e)+r(n)+%22-%22+r(u)+r(i));document.getElementById('ShopTypeID').value=Array.from(document.getElementById('ShopTypeID').options).find(function(option)%20%7Breturn%20option.text===%22Unity%20Demo%22%7D).value;%7D();">AutoShopName</a>
                 <span>AutoShopName</span>
             </li>
         </ul>
