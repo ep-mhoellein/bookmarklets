@@ -4,4 +4,4 @@ Bookmarklets for ePages 6 development
 
 *Installation: simply drag the icon to your bookmark bar from the following page*
 
-[Go to bookmarklets installation page](https://epages-rnd.github.io/bookmarklets/)
+[Go to bookmarklets installation page](https://ep-mhoellein.github.io/bookmarklets/)
